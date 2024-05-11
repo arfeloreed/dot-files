@@ -1,0 +1,24 @@
+# basic settings
+
+set ignorecase true
+
+# custom functions
+cmd open &{{
+	case $(file --mime-type -Lb $f) in
+		text/*) lf -remote "send $id \$nvim \$fx";;
+		*) xdg-open "$f"
+	esac
+}}
+
+# bindings
+# basic functions
+map <enter> open
+map x cut
+
+# Movement
+map gc cd ~/.config
+map gD cd ~/documents
+map gd cd ~/downloads
+map gp cd ~/pictures
+map gv cd ~/videos
+map gs cd ~/.local/bin
