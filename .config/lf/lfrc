@@ -1,6 +1,6 @@
 # basic settings
-
 set ignorecase true
+set hidden true
 
 # custom functions
 cmd open &{{
@@ -17,8 +17,9 @@ map x cut
 
 # Movement
 map gc cd ~/.config
-map gD cd ~/documents
-map gd cd ~/downloads
-map gp cd ~/pictures
-map gv cd ~/videos
+map gD cd ~/Documents
+map gd cd ~/Downloads
+map gp cd ~/Pictures
+map gv cd ~/Videos
 map gs cd ~/.local/bin
+map gh cd ~/
