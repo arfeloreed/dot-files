@@ -250,17 +250,17 @@
       </action>
     </keybind>
     <!-- my personal settings, then type in terminal openbox \-\-reconfigure to apply changes -->
-    <keybind key="C-Up">
+    <keybind key="C-S-Up">
         <action name="ToggleMaximize"/>
     </keybind>
-    <keybind key="C-Down">
+    <keybind key="C-S-Down">
         <action name="Iconify"/>
     </keybind>
-    <keybind key="C-Left">
+    <keybind key="C-S-Left">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo"><x>0</x><y>0</y><height>100%</height><width>50%</width></action>
     </keybind>
-    <keybind key="C-Right">
+    <keybind key="C-S-Right">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo"><x>-0</x><y>0</y><height>100%</height><width>50%</width></action>
     </keybind>
