@@ -1,1 +1,1 @@
-require("reed")
+require("reed.lazy")

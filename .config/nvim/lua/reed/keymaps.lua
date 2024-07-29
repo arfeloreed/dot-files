@@ -6,6 +6,7 @@ local opts = { silent = true }
 -- remap space as leader key
 key("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
 
 -- leader + pv to exit and return to previous buffer
 key("n", "<leader>z", vim.cmd.Ex)
