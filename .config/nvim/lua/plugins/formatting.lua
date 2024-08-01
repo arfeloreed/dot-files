@@ -16,7 +16,8 @@ return {
 				markdown = { "prettier" },
 				lua = { "stylua" },
 				-- python = { "isort", "black" },
-				python = { "ruff_organize_imports", "ruff_format", "ruff_fix" }, -- use with ruff linter
+				-- python = { "ruff_organize_imports", "ruff_format", "ruff_fix" }, -- use with ruff linter
+				python = { "ruff_fix" },
 			},
 			format_on_save = {
 				lsp_fallback = true,

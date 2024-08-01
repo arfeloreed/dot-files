@@ -82,9 +82,9 @@ return {
 		lspconfig.pylsp.setup({
 			capabilities = capabilities,
 		})
-		lspconfig.ruff.setup({
-			capabilities = capabilities,
-		})
+		-- lspconfig.ruff.setup({
+		-- 	capabilities = capabilities,
+		-- })
 		-- config for js/ts server
 		lspconfig.tsserver.setup({
 			capabilities = capabilities,
