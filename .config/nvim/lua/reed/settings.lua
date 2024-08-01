@@ -1,4 +1,4 @@
--- vim.cmd("let g:netrw_liststyle = 3")
+-- vim.cmd("let g:netrw_liststyle = 3") -- for using tree forlder structure in netrw
 
 local opt = vim.opt
 
@@ -31,7 +31,7 @@ opt.signcolumn = "yes" -- show sign column so that text doesn't shift
 opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line or insert mode start position
 
 -- clipboard
-opt.clipboard:append("unnamedplus") -- use system clipboard as default register
+opt.clipboard:append("unnamedplus") -- use system clipboard as default register for copy/paste
 
 vim.opt.scrolloff = 8
 vim.opt.isfname:append("@-@")

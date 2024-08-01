@@ -1,8 +1,9 @@
 return {
-  "lukas-reineke/indent-blankline.nvim",
-  main = "ibl",
-  config = true, -- same as saying require("ibl").setup()
-  --[[
+	"lukas-reineke/indent-blankline.nvim",
+	event = { "BufReadPre", "BufNewFile" },
+	main = "ibl",
+	config = true, -- same as saying require("ibl").setup()
+	--[[
   --currently don't like the rainbow setup
   config = function()
     local highlight = {
