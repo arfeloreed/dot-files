@@ -3,6 +3,7 @@
 local opt = vim.opt
 
 opt.cursorline = true -- highlight entire current line
+-- vim.opt.guicursor = "" -- on insert cursor is still in its fat mode
 vim.opt.nu = true -- show current line number
 vim.opt.relativenumber = true -- show relative line numbers in respect to current
 
@@ -45,4 +46,4 @@ vim.opt.colorcolumn = "80"
 -- opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
--- opt.swapfile = false
+opt.swapfile = false

@@ -27,7 +27,8 @@ return {
 		})
 
 		vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Fuzzy find files in cwd" })
-		vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Find string in cwd" })
+		vim.keymap.set("n", "<leader>fg", builtin.git_files, { desc = "Find files in git dir" })
+		vim.keymap.set("n", "<leader>fs", builtin.live_grep, { desc = "Find string in cwd" })
 		vim.keymap.set(
 			"n",
 			"<leader>fc",
