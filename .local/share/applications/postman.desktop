@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=/home/reed/Postman/Postman
+Icon=/home/reed/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+
+# dont forget to install openssl and perl for postman to work
+# sudo dnf install wget openssl perl
