@@ -22,6 +22,7 @@ return {
 				"go",
 				"html",
 				"css",
+				"bash",
 			},
 			sync_install = false,
 			auto_install = true,
