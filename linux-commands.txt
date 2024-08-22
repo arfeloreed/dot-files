@@ -1,0 +1,14 @@
+useful linux commands
+Ubuntu/Debian
+
+# exclude the package from upgrading in apt upgrade
+sudo apt-mark hold package_name
+# remove from hold
+sudo apt-mark unhold package_name
+# show list of hold packages
+apt-mark showhold
+
+# apt purge vs apt remove
+apt purge remove the package including all dependencies and config for the package
+apt remove only removes the package and retains the config file
+* both do not touch the home directory of user
