@@ -109,6 +109,10 @@ return {
 				},
 			},
 		})
+		-- config for tailwindcss server
+		lspconfig.tailwindcss.setup({
+			capabilities = capabilities,
+		})
 
 		-- mason_lspconfig.setup_handlers({
 		--   -- default handler for installed servers

@@ -33,6 +33,7 @@ return {
 				"tsserver",
 				"html",
 				"cssls",
+				"tailwindcss",
 			},
 		})
 
