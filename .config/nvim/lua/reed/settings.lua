@@ -39,11 +39,12 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+-- ruler guide
+vim.opt.colorcolumn = "100"
 
 -- split windows
--- opt.splitright = true -- split vertical window to the right
--- opt.splitbelow = true -- split horizontal window to the bottom
+opt.splitright = true -- split vertical window to the right
+opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
