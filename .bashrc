@@ -4,9 +4,10 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 # nvim path
 export PATH="$PATH:/opt/nvim-linux64/bin"
-
 # for my own scripts
 export PATH=$PATH:$HOME/scripts
+# for node installed via homebrew
+export PATH="/home/linuxbrew/.linuxbrew/opt/node@20/bin:$PATH"
 
 # Set up fzf key bindings and fuzzy completion
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
