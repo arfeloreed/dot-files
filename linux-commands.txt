@@ -16,3 +16,7 @@ apt remove only removes the package and retains the config file
 # update or upgrade a single package
 sudo apt-get --only-upgrade install Package
 sudo apt --only-upgrade install package
+
+# search if a package exists via apt
+apt search <package_name>
+apt show <package_name>

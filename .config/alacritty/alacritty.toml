@@ -13,7 +13,7 @@ opacity = 0.8
 startup_mode = "Maximized"
 
 [font]
-normal = { family = "MesloLGS Nerd Font Mono", style = "Regular" }
+normal = { family = "Fira Code", style = "Regular" }
 size = 12
 
 [cursor]
