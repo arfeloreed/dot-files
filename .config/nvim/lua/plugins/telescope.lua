@@ -8,7 +8,7 @@ return {
 		"folke/todo-comments.nvim",
 	},
 	config = function()
-		-- telescope setup
+		-- telescope setup, also install ripgrep via brew or apt
 		local telescope = require("telescope")
 		local actions = require("telescope.actions")
 		local builtin = require("telescope.builtin")

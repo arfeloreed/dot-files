@@ -14,6 +14,8 @@ return {
 				html = { "prettier" },
 				json = { "prettier" },
 				markdown = { "prettier" },
+				toml = { "prettier" },
+				yaml = { "prettier" },
 				lua = { "stylua" },
 				-- python = { "isort", "black" },
 				-- python = { "ruff_organize_imports", "ruff_format", "ruff_fix" }, -- use with ruff linter

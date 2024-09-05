@@ -23,13 +23,25 @@ return {
 				"html",
 				"css",
 				"bash",
+				"typescript",
+				"tsx",
+				"gitignore",
+				"json",
+				"yaml",
+				"toml",
 			},
 			sync_install = false,
 			auto_install = true,
+			-- enable syntax highlighting
 			highlight = {
 				enable = true,
 				additional_vim_regex_highlighting = false,
 			},
+			-- enable autotagging (w/ nvim-ts-autotag plugin)
+			autotag = {
+				enable = true,
+			},
+			-- enable indentation
 			indent = { enable = true },
 			incremental_selection = {
 				enable = true,

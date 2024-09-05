@@ -10,10 +10,12 @@ export PATH=$PATH:$HOME/scripts
 export PATH="/home/linuxbrew/.linuxbrew/opt/node@20/bin:$PATH"
 
 # Set up fzf key bindings and fuzzy completion
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(starship init bash)"
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
 
 # yarn config
 alias yarn="yarn --network-timeout 300000"
