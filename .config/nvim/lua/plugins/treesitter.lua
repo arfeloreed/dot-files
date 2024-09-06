@@ -37,10 +37,6 @@ return {
 				enable = true,
 				additional_vim_regex_highlighting = false,
 			},
-			-- enable autotagging (w/ nvim-ts-autotag plugin)
-			autotag = {
-				enable = true,
-			},
 			-- enable indentation
 			indent = { enable = true },
 			incremental_selection = {

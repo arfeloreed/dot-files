@@ -39,8 +39,11 @@ opt.isfname:append("@-@")
 
 opt.updatetime = 50
 
+-- Set text wrapping at 80 characters
+opt.textwidth = 80
+opt.wrap = true -- enable wrapping
 -- ruler guide
-opt.colorcolumn = "100"
+-- opt.colorcolumn = "100"
 
 -- split windows
 opt.splitright = true -- split vertical window to the right
