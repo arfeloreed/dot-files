@@ -7,6 +7,7 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#394260 bg:#212736)\
+$python\
 $nodejs\
 $rust\
 $golang\
@@ -36,6 +37,12 @@ format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
 [git_status]
 style = "bg:#394260"
 format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#394260)]($style)'
+
+[python]
+symbol = "🐍"
+style = "bg:#212736"
+python_binary = "python3"
+format = '[[ $symbol ($version) ($virtualenv) ](fg:#769ff0 bg:#212736)]($style)'
 
 [nodejs]
 symbol = ""

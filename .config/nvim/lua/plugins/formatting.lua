@@ -14,7 +14,7 @@ return {
 				html = { "prettier" },
 				json = { "prettier" },
 				markdown = { "prettier" },
-				toml = { "prettier" },
+				-- toml = { "prettier" },
 				yaml = { "prettier" },
 				lua = { "stylua" },
 				-- python = { "isort", "black" },
