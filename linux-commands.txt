@@ -23,7 +23,7 @@ apt show <package_name>
 
 # listing all the disk in the system
 sudo fdisk -l
-lsblk or lsblk -f
+lsblk or lsblk -f or lsblk -l
 # manually mount the drive
 format: sudo mount /dev/<name-of-drive> /media/reed - mounting point entry
 sample: sudo mount /dev/sda1 /media/reed

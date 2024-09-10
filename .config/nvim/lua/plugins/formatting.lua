@@ -13,9 +13,9 @@ return {
 				css = { "prettier" },
 				html = { "prettier" },
 				json = { "prettier" },
-				markdown = { "prettier" },
+				-- markdown = { "prettier" },
 				-- toml = { "prettier" },
-				yaml = { "prettier" },
+				-- yaml = { "prettier" },
 				lua = { "stylua" },
 				-- python = { "isort", "black" },
 				-- python = { "ruff_organize_imports", "ruff_format", "ruff_fix" }, -- use with ruff linter
@@ -24,8 +24,9 @@ return {
 			format_on_save = {
 				lsp_fallback = true,
 				async = false,
-				timeout_ms = 1000,
+				timeout_ms = 15000,
 			},
+			log_level = vim.log.levels.DEBUG,
 		})
 
 		-- format on normal and visual mode
@@ -33,7 +34,7 @@ return {
 			conform.format({
 				lsp_fallback = true,
 				async = false,
-				timeout_ms = 1000,
+				timeout_ms = 15000,
 			})
 		end, { desc = "Format file or range (in visual mode)" })
 	end,
