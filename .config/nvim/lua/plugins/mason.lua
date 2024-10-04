@@ -30,10 +30,11 @@ return {
 			ensure_installed = {
 				"pylsp",
 				"lua_ls",
-				"tsserver",
+				"ts_ls",
 				"html",
 				"cssls",
 				"tailwindcss",
+				"ruff_lsp",
 			},
 		})
 

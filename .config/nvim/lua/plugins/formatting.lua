@@ -18,8 +18,7 @@ return {
 				-- yaml = { "prettier" },
 				lua = { "stylua" },
 				-- python = { "isort", "black" },
-				-- python = { "ruff_organize_imports", "ruff_format", "ruff_fix" }, -- use with ruff linter
-				python = { "ruff_fix" },
+				python = { "ruff_organize_imports", "ruff_format", "ruff_fix" }, -- use with ruff linter
 			},
 			format_on_save = {
 				lsp_fallback = true,

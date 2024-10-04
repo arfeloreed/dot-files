@@ -79,14 +79,17 @@ return {
 		end
 
 		-- config for python server
-		lspconfig.pylsp.setup({
+		lspconfig.ruff_lsp.setup({
 			capabilities = capabilities,
 		})
+		-- lspconfig.pylsp.setup({
+		-- 	capabilities = capabilities,
+		-- })
 		-- lspconfig.ruff.setup({
 		-- 	capabilities = capabilities,
 		-- })
 		-- config for js/ts server
-		lspconfig.tsserver.setup({
+		lspconfig.ts_ls.setup({
 			capabilities = capabilities,
 		})
 		-- config for html server
