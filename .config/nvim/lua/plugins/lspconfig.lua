@@ -79,7 +79,7 @@ return {
 		end
 
 		-- config for python server
-		lspconfig.ruff_lsp.setup({
+		lspconfig.ruff.setup({
 			capabilities = capabilities,
 		})
 		-- lspconfig.pylsp.setup({
