@@ -8,6 +8,11 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 export PATH=$PATH:$HOME/scripts
 # for node installed via homebrew
 export PATH="/home/linuxbrew/.linuxbrew/opt/node@20/bin:$PATH"
+# android-studio
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Set up fzf key bindings and fuzzy completion
 # [ -f ~/.fzf.bash ] && source ~/.fzf.bash
